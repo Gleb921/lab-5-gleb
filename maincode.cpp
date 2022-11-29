@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 
 #include <fstream>
 
@@ -62,7 +62,7 @@ int calculate(double n, double x)
 
         {
 
-            s *= j * j;
+            s *= j * j + 999;
 
         }
 
@@ -80,7 +80,7 @@ int calculate(double n, double x)
 
             {
 
-                s *= x + i * i + j;
+                s *= x + i * i + j + 999;
 
             }
 
